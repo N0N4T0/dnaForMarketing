@@ -10,7 +10,6 @@
     }
 }
 
-
 @media only screen and (min-width: 1121px) and (max-width: 1324px){
     .footer-itens-grid article {
         font-size: 16px;
@@ -104,4 +103,19 @@
         justify-content: start;
         min-width: fit-content;
     }    
+}
+
+
+.slide-items {
+    position: relative;
+}
+
+.slide-items > * {
+    position: absolute;
+    opacity: 0;
+}
+
+.slide-items .active {
+    opacity: 1;
+    position: relative;
 }

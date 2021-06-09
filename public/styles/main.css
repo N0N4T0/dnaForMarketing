@@ -125,7 +125,7 @@ h1, h2 {
     grid-template-columns: 1fr 2fr;
 }
 
-.footer-itens-grid section {
+.footer-itens-grid nav.slide-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
