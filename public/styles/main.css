@@ -111,3 +111,73 @@ h1, h2 {
 #page-home main section a#whatszapp img {
     width: 50px;
 }
+
+/* FOOTER */
+#page-home footer{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    left: 100px;
+}
+
+.footer-itens-grid{
+    display: flex;
+    flex: 1;
+}
+
+.footer-itens-grid li {
+    background-color: rgba(0, 0, 0, 0.212); 
+    list-style: none;
+
+    border-top: 0.5px solid var(--footer-color);
+    border-right: 0.5px solid var(--footer-color);
+    height: 160px;
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: var(--title-color);
+    font-weight: 400;
+
+    padding-bottom: 15px;
+    line-height: 26px;
+}
+
+.footer-itens-grid li:first-child {
+    border-left: 0.5px solid var(--footer-color);
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: unset;
+    display: flex;
+    flex: 2;
+}
+
+.footer-itens-grid article {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#footer-bolder {
+    font-weight: 600;
+}
+
+.footer-itens-grid img{
+    padding-top: 25px;
+    flex: 1;
+
+    width: 30%;
+}
+
+#phone {
+    padding-top: 25px;
+    flex: 1; 
+}
+
+.footer-text {
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+}
