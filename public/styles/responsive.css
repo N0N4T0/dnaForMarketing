@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1325px){
+    #page-home main h1 {      
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    #page-home main h1#bolder {    
+        font-weight: 900;
+        font-size: 28px;
+    }
+}
+
+
+@media only screen and (min-width: 1121px) and (max-width: 1324px){
+    .footer-itens-grid article {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .footer-text {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1120px){
+    #page-home header img#dna{
+        margin-left: 30px;
+    }
+
+    #page-home #right-top-menu #search {
+        margin-right: 70px;
+    }
+
+    #page-home main {
+        margin-left: 30px;
+    }
+
+    #page-home main h1 {      
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    #page-home main h1#bolder {    
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+    #page-home main section a#text{
+        max-width: 225px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .footer-itens-grid article {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    #page-home footer {
+        right: 30px;
+        left: 30px;
+    }
+
+    .footer-text {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-itens-grid article {
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-itens-grid li:first-child {
+        flex: 1;
+        justify-content: center;
+        min-width: 300px;
+    }    
+}
+
+@media only screen and (max-width: 450px) {
+    .footer-itens-grid li:first-child {
+        flex: 1;
+        justify-content: start;
+        min-width: fit-content;
+    }    
+
+    .footer-itens-grid article {
+        font-size: 12px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .footer-itens-grid li:first-child {
+        flex: 1;
+        justify-content: start;
+        min-width: fit-content;
+    }    
+}
