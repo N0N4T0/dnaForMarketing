@@ -35,15 +35,16 @@ class SlideResults {
 }
 
 
-var widthResolution = window.innerWidth 
-    || document.documentElement.clientWidth
-    || document.body.clientWidth
+// var widthResolution = window.innerWidth 
+//     || document.documentElement.clientWidth
+//     || document.body.clientWidth
 
-if(widthResolution <= 800){
-    let noSeparator = document.querySelectorAll(".separator")  
+// if(widthResolution <= 800){
+//     let noSeparator = document.querySelectorAll(".separator")  
 
-    noSeparator.forEach(separator => separator.classList.remove("separator"))
+//     noSeparator.forEach(separator => separator.classList.remove("separator"))
 
-    new SlideResults('slide')
-}   
+//     new SlideResults('slide')
+// }   
 
+new SlideResults('slide')
