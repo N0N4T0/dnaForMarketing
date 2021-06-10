@@ -113,7 +113,7 @@ h1, h2 {
 }
 
 /* FOOTER */
-#page-home footer{
+footer{
     position: absolute;
     right: 100px;
     bottom: 0;
@@ -123,6 +123,27 @@ h1, h2 {
 .footer-itens-grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+#footer-text-grid{
+    display: grid;
+    grid-template-columns: max-content 30px;
+}
+
+#big_arrow {
+    background-image: url(../assets/big-arrow.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    padding: 20px 0 0;
+    background-origin: content-box;
+}
+
+.separator {
+    background-image: url(../assets/separator.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 58%;
 }
 
 .footer-itens-grid nav.slide-items {

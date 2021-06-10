@@ -55,11 +55,6 @@
         margin-right: 0;
     }
 
-    #page-home footer {
-        right: 30px;
-        left: 30px;
-    }
-
     .footer-text {
         font-size: 13px;
     }
@@ -84,7 +79,51 @@
     }    
 }
 
+/*SLIDER */
+@media screen and (max-width:768px) {
+    .footer-itens-grid {
+        display: grid;
+        grid-template-columns: 340px 1fr;
+    }
+
+    .footer-itens-grid nav.slide-items {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .slide-items {
+        position: relative;
+    }
+    
+    .slide-items > * {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .slide-items .active {
+        opacity: 1;
+        position: relative;
+        visibility: visible;
+    }
+
+    #big_arrow {
+        background-size: 10%;
+    }
+
+    footer {
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
+}
+
 @media only screen and (max-width: 450px) {
+    .footer-itens-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
     .footer-itens-grid li:first-child {
         flex: 1;
         justify-content: start;
@@ -95,27 +134,42 @@
         font-size: 12px;
         margin-right: 0;
     }
+
+    footer {
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
 }
 
 @media only screen and (max-width: 380px) {
+    .footer-itens-grid article {
+        font-size: 10px;
+        margin-right: 0;
+    }
+
+    .footer-itens-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .footer-itens-grid div:first-child {
+        align-items: baseline;
+    }
+
+    #big_arrow {
+        padding-left: 3%;
+    }
+
     .footer-itens-grid li:first-child {
         flex: 1;
         justify-content: start;
         min-width: fit-content;
-    }    
-}
-
-
-.slide-items {
-    position: relative;
-}
-
-.slide-items > * {
-    position: absolute;
-    opacity: 0;
-}
-
-.slide-items .active {
-    opacity: 1;
-    position: relative;
+    }   
+    
+    footer {
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
 }

@@ -1,12 +1,3 @@
-// var widthResolution = window.innerWidth 
-//     || document.documentElement.clientWidth
-//     || document.body.clientWidth
-
-// if(widthResolution <= 800){
-//     alert("Js is running")
-// }    
-
-
 class SlideResults {
   constructor(id) {
       this.slide = document.querySelector(`[data-slide="${id}"]`);
@@ -30,7 +21,7 @@ class SlideResults {
   }
 
   autoSlide(){
-      setTimeout(this.next, 5000)
+      setTimeout(this.next, 3000)
   }
 
   // inicia configurações gerais
@@ -43,5 +34,16 @@ class SlideResults {
   }
 }
 
-new SlideResults('slide')
+
+var widthResolution = window.innerWidth 
+    || document.documentElement.clientWidth
+    || document.body.clientWidth
+
+if(widthResolution <= 800){
+    let noSeparator = document.querySelectorAll(".separator")  
+
+    noSeparator.forEach(separator => separator.classList.remove("separator"))
+
+    new SlideResults('slide')
+}   
 
