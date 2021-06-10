@@ -81,6 +81,10 @@
 
 /*SLIDER */
 @media screen and (max-width:768px) {
+    .separator {
+        background-image: none;
+    }
+
     .footer-itens-grid {
         display: grid;
         grid-template-columns: 340px 1fr;
