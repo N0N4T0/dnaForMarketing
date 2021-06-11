@@ -8,6 +8,8 @@
 
 ---
 
+ <img src="https://github.com/N0N4T0/dnaForMarketing/blob/master/public/assets/dnaForMarketing.jpg" >
+
 ## Sobre o projeto 
 
 Teste prático para vaga de Web Design
