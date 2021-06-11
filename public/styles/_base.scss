@@ -1,0 +1,31 @@
+$primary-color: #ffffff;
+$second-color: rgba(199, 194, 194, 0.26);
+$light-orange-color: rgb(255, 203, 126);
+$darker-orange-color: rgb(206, 152, 71);
+
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    color: $primary-color;
+}

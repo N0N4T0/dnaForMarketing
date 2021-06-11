@@ -1,0 +1,24 @@
+/* HEADER */
+#page-home header {
+    display: flex;
+    justify-content: space-between;
+    
+    img#dna{
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-bottom: 57px;
+    }
+    
+    #right-top-menu {
+        @extend .flexCenter;
+
+        #hambuger {
+            margin-right: 40px;
+        }
+        
+        #search {
+            margin-right: 200px;
+        }
+    }    
+}
+
